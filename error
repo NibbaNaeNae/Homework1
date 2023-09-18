@@ -45,10 +45,6 @@ def overAcertainLength(array):
             if array[item].length > minimumLength:
                 print("Decks which are greater than " + minimumLength + "are " + array[item].name)
 
-    for x in twoToFifteenArray:
-        print(f"Decks which are greater than {minimumLength} are {array[x in twoToFifteenArray].name}")
-
-
     
 decks = [Deck() for x in range(6)]
 
