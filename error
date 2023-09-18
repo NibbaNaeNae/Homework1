@@ -38,12 +38,12 @@ def findCheapest(array):
 
 def overAcertainLength(array):
     minimumLength = int(input("Please enter a minimum length between 2 and 15: "))
-    twoToFifteenArray = []
+
 
     if minimumLength >= 2 and minimumLength <= 15:
         for item in range(1,len(array)):
             if array[item].length > minimumLength:
-                twoToFifteenArray.append(item)
+                print("Decks which are greater than " + minimumLength + "are " + array[item].name)
 
     for x in twoToFifteenArray:
         print(f"Decks which are greater than {minimumLength} are {array[x in twoToFifteenArray].name}")
